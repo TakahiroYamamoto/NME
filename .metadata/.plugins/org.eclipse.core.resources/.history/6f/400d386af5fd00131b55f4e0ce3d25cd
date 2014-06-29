@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">割り勘電卓</string>
+    <string name="calc_button">計算</string>
+
+</resources>

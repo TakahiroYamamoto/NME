@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <Button
+        android:id="@+id/calc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/calc_button" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calc_button"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/in_text"
+            android:layout_width="174dp"
+            android:layout_height="44dp"
+            android:text="@string/in_text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <EditText
+            android:inputType="text"
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="174dp"
+            android:layout_height="44dp"
+            android:text="@string/in_text_end"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+</RelativeLayout>
