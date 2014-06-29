@@ -1,30 +1,5 @@
 <resources>
 
     <string name="app_name">AruaruMap</string>
-    <string name="address_list">
-[
-	{
-		"key": 1,
-		"name": \"浪江 よね\",
-		"sex": \"female\",
-		"oldAddress": \"福島県双葉郡浪江町幾世橋六反田7−2\",
-		"currentAddress": \"埼玉県さいたま市西区大字中釘1241\"
-	},
-	{
-		"key" : 2,
-		"name": \"双葉 権之介\",
-		"sex": \"male\",
-		"oldAddress": "福島県双葉郡浪江町権現堂字南深町41ー1\",
-		"currentAddress": "埼玉県さいたま市西区宝来910\"
-	},
-	{
-		"key": 3,
-		"name": \"福島 たま\",
-		"sex": \"female\",
-		"oldAddress": \"福島県双葉郡浪江町高瀬牛渡川231\",
-		"currentAddress": \"埼玉県川越市宮下町2-11-3\"
-	}
-]
-    </string>
     
 </resources>
